@@ -44,7 +44,16 @@ public class Main {
         // animals.add(cat1);
         // System.out.println(animals);
 
-        
+        lion1.fly();
+        cat1.swim();
+        chicken1.toGo();
+        dog1.fly();
+        goat1.swim();
+        goose1.toGo();
+        hams1.swim();
+        mouse1.fly();
+
+
     }
     
 }
