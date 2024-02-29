@@ -8,11 +8,11 @@ import java.time.LocalDate;
 public class Animals {
 
     protected String name;
-    protected float weight;
+    protected double weight;
     protected LocalDate adge;
     protected Owner owner;
  
-    public Animals(String name, float weight, LocalDate adge, Owner owner) {
+    public Animals(String name, double weight, LocalDate adge, Owner owner) {
         this.name = name;
         this.weight = weight;
         this.adge = adge;
@@ -40,10 +40,21 @@ public class Animals {
     private void play(){
         System.out.println(Gettype() + " играет");
     } 
-// 1) Добавить в класс Animal public методы двигаться(toGo), летать(fly), плавать(swim).
-    
+
+    protected void toGo(){
+        System.out.println(Gettype() + " идет");
+    }
+
+    protected void fly(){
+        System.out.println(Gettype() + " летит");
+    }
+
+    protected  void swim(){
+        System.out.println(Gettype() + " плывет");
+    }
+
     public void life(){
-        wakeUp(15);
+        wakeUp();
         eat();
         play();
         sleep();
@@ -61,7 +72,7 @@ public class Animals {
         return name;
     }
 
-    public float getWeight() {
+    public double getWeight() {
         return weight;
     }
 
