@@ -9,8 +9,12 @@ public class Lion extends Animals {
 
     }
 
-public Lion() {
-        super();
-
+    @Override
+    protected void fly() {
+        System.out.println(Gettype() + " не летает");
+    }
+    @Override
+    protected void swim() {
+        System.out.println(Gettype() + " не охотно плавает");
     }
 }
