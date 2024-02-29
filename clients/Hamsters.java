@@ -8,12 +8,12 @@ public class Hamsters extends Animals{
     }
     
     @Override
-    protected void fly() {
+    public void fly() {
         System.out.println(Gettype() + " не летает");
     }
 
     @Override
-    protected void swim() {
+    public void swim() {
         System.out.println(Gettype() + " не уверен, но по-моему как кирпич");
     }
 }

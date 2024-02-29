@@ -8,7 +8,7 @@ public class Chickens extends Animals{
     }
 
     @Override
-    protected void fly() {
+    public void fly() {
         System.out.println(Gettype() + " не летаюая");
     }
 }

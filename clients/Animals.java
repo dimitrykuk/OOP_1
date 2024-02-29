@@ -41,15 +41,15 @@ public class Animals {
         System.out.println(Gettype() + " играет");
     } 
 
-    protected void toGo(){
+    public void toGo(){
         System.out.println(Gettype() + " идет");
     }
 
-    protected void fly(){
+    public void fly(){
         System.out.println(Gettype() + " летит");
     }
 
-    protected  void swim(){
+    public  void swim(){
         System.out.println(Gettype() + " плывет");
     }
 

@@ -7,7 +7,7 @@ public class Mice extends Animals{
         super(name, weight, adge, owner);
     }
     @Override
-    protected void fly() {
+    public void fly() {
         System.out.println(Gettype() + " не летает");
     }
 }
