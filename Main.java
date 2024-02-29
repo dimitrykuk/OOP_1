@@ -49,8 +49,5 @@ public class Main {
         goose1.toGo();
         hams1.swim();
         mouse1.fly();
-
-
     }
-    
 }
